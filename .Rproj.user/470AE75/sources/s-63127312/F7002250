@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1574347486731.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "F7002250",
+    "lastKnownWriteTime" : 1574348074,
+    "last_content_update" : 1574348074163,
+    "path" : "T://BIGiframe/app.R",
+    "project_path" : "app.R",
+    "properties" : {
+        "cursorPosition" : "28,1",
+        "scrollLine" : "23"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
