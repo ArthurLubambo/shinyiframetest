@@ -23,16 +23,20 @@ ui <- fluidPage(
 
         # Show a plot of the generated distribution
         mainPanel(
-           textOutput("text")
+           textOutput("text"),
+           textOutput("session")
         )
     )
 )
 
 # Define server logic required to draw a histogram
 server <- function(input, output, session) {
-output$text =     output$text <- renderText({
+output$text =   renderText({
     query <- parseQueryString(session$clientData$url_search)
     paste(names(query), query, sep = "=", collapse=", ")
+})
+output$session =  renderText({
+    input$message
 })
 }
 
